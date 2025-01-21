@@ -73,6 +73,8 @@ section{
 }
 #banner{
     display: flex;
+    width: 100vw;
+    height: 60vh;
 
 }
 #texts{
@@ -119,6 +121,7 @@ section{
     border: none;
     height: 7vh;
     width: 31vw;
+    outline: none;
 }
 #botao input::placeholder{
     padding-left: 1vw;
@@ -129,7 +132,85 @@ section{
 }
 #image img{
     width: 100vw;
-    height: 70vh;
+    height: 60vh;
     filter: brightness(25%);
     opacity: 86%;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 50vh;
+}
+
+#form{
+    height:40vh;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    background-color: orangered;
+    margin-top: 2%;
+    
+}
+#form input{
+    height: 7vh;
+    border: none;
+}
+#form button{
+    border: none;
+    height: 7vh;
+    color: white;
+    background-color: #1f1f2e;
+}
+#texts2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 45vh;
+    width: 40vw;  
+    font-weight: 300;
+    color: #1f1f2e; 
+}
+#texts2 h4{
+    color: orangered;
+    font-size: 12px;
+}
+#number0{
+    height: 25vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+#number1{
+    color: orangered;
+    font-size: 25px;
+    font-weight: 700;
+}
+#number1 p{
+    color: #1f1f2e;
+    font-size: 10px;
+    font-weight: 700;
+}
+#number2{
+    color: orangered;
+    font-size: 25px;
+    font-weight: 700;
+}
+#number2 p{
+    color: #1f1f2e;
+    font-size: 10px;
+    font-weight: 700;
+}
+#number3{
+    color: orangered;
+    font-size: 25px;
+    font-weight: 700;
+}
+#number3 p{
+    color: #1f1f2e;
+    font-size: 10px;
+    font-weight: 700;
 }
